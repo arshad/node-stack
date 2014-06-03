@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/arshad/node-stack/issues"
   },
-  "homepage": "https://github.com/arshad/node-stack"
+  "homepage": "https://github.com/arshad/node-stack",
+  "dependencies": {
+    "grunt": "~0.4.5"
+  }
 }
