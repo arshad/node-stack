@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/arshad/node-stack",
   "dependencies": {
-    "grunt": "~0.4.5"
+    "grunt": "~0.4.5",
+    "grunt-nodemon": "~0.2.1"
   }
 }
