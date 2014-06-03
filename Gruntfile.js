@@ -6,7 +6,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     nodemon: {
       dev: {
-        script: 'index.js',
+        script: 'app.js',
         options: {
           args: [],
           ignore: ['public/**', 'node_modules/**'],
