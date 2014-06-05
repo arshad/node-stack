@@ -20,11 +20,18 @@ module.exports = function(grunt) {
         }
       }
     },
+    concurrent: {
+      tasks: ['nodemon'],
+      options: {
+        logConcurrentOutput: true
+      }
+    },
   });
 
   // Load NPM tasks.
   grunt.loadNpmTasks('grunt-nodemon');
+  grunt.loadNpmTasks('grunt-concurrent');
 
   // Add default tasks.
-  grunt.registerTask('default', ['nodemon']);
+  grunt.registerTask('default', ['concurrent']);
 }
