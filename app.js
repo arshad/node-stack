@@ -1,9 +1,10 @@
 'use strict';
 
-var config = require('./app/config/config');
-var swig = require('swig');
-var express = require('express');
-var app = express();
+var config = require('./app/config/config')
+  , swig = require('swig')
+  , express = require('express')
+  , app = express()
+  ;
 
 // Use swig as the template engine.
 app.engine('swig.html', swig.renderFile);
